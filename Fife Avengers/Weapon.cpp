@@ -1,7 +1,7 @@
 #include "Weapon.h"
 
 // Constructor:
-Weapon::Weapon(string nameValue, int damageValue)
+Weapon::Weapon(const string& nameValue, int damageValue)
 {
 	name = nameValue;
 	damageScore = damageValue;

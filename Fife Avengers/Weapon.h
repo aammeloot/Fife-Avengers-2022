@@ -9,7 +9,7 @@ protected:
 	string name;
 	int damageScore;
 public:
-	Weapon(string, int);
+	Weapon(const string&, int);
 	string getName();
 	int getDamageScore();
 };
