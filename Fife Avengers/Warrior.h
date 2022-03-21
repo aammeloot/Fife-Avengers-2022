@@ -1,8 +1,11 @@
 #pragma once
 #include "Character.h"
+
 class Warrior :
     public Character
 {
-    Warrior(const string&, int);
+public:
+    Warrior(const string&);
+    void attack(shared_ptr<Character>);
 };
 

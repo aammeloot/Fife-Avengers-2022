@@ -13,7 +13,7 @@ const string& Character::getName()
 
 int Character::getStrength()
 {
-	return 0;
+	return weapon->getDamageScore();
 }
 
 int Character::getHealth()

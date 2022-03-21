@@ -3,6 +3,7 @@
 class Warhammer :
     public Weapon
 {
+public:
     Warhammer(const string&);
 };
 

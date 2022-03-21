@@ -3,6 +3,7 @@
 class Mage :
     public Character
 {
-    Mage(const string&, int, int);
+public:
+    Mage(const string&, int);
 };
 

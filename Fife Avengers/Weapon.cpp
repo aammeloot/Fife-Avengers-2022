@@ -16,3 +16,4 @@ int Weapon::getDamageScore()
 {
 	return damageScore;
 }
+

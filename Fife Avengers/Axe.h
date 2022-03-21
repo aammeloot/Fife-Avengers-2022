@@ -3,6 +3,7 @@
 class Axe :
     public Weapon
 {
+public:
     Axe(const string&);
 };
 

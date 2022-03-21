@@ -3,6 +3,7 @@
 class Spell :
     public Weapon
 {
+public:
     Spell(const string&);
 };
 
