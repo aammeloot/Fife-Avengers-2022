@@ -1,5 +1,11 @@
 #include "Character.h"
 
+/*
+*	This one is the implementation of the functions from the clas
+*	character
+*/
+
+// Constructor
 Character::Character(const string& nameVal, int healthVal)
 {
 	name = nameVal;
