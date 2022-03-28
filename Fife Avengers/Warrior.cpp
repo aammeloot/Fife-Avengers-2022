@@ -28,3 +28,8 @@ void Warrior::attack(shared_ptr<Character>)
 {
 	// Leave it empty for now
 }
+
+const string& Warrior::getClass()
+{
+	return "Warrior";
+}

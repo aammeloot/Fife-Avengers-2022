@@ -4,7 +4,8 @@ class Mage :
     public Character
 {
 public:
-    Mage(const string&, int);
+    Mage(const string&);
     void attack(shared_ptr<Character>);
+    const string& getClass();
 };
 

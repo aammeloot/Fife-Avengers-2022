@@ -4,7 +4,8 @@ class Barbarian :
     public Character
 {
 public:
-    Barbarian(const string&, int);
+    Barbarian(const string&);
     void attack(shared_ptr<Character>);
+    const string& getClass();
 };
 

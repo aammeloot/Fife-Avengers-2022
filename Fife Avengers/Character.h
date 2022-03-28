@@ -36,5 +36,8 @@ public:
 	// the weapon's damage level
 	int getStrength();
 
+	// Method returning the Character's class
+	virtual const string& getClass();
+
 	virtual void attack(shared_ptr<Character>) = 0;
 };

@@ -13,6 +13,7 @@ public:
     // If we weren't using smart pointers, a destructor would be necessary
     // ~Warrior();
 
+    const string& getClass();
     void attack(shared_ptr<Character>);
 };
 

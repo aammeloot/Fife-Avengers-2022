@@ -32,3 +32,9 @@ void Character::setHealth(int healthVal)
 	health = healthVal;
 }
 
+const string& Character::getClass()
+{
+
+	string s = "Character";
+	return s;
+}
