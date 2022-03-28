@@ -6,3 +6,5 @@ Barbarian::Barbarian(const string& nameVal, int healthVal) : Character(nameVal, 
 	auto newAxe = make_shared<Axe>("Gretaxe Thunberg");
 	weapon = (shared_ptr<Weapon>)newAxe;
 }
+
+void Barbarian::attack(shared_ptr<Character>) { }

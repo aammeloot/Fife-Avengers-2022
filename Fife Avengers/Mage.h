@@ -5,5 +5,6 @@ class Mage :
 {
 public:
     Mage(const string&, int);
+    void attack(shared_ptr<Character>);
 };
 

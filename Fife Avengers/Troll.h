@@ -5,5 +5,6 @@ class Troll :
 {
 public:
     Troll(const string&, int);
+    void attack(shared_ptr<Character>);
 };
 
